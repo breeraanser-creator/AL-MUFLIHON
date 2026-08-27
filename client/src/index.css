@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #fdfbf7;
+    color: #2a0b20;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDF4D2;
+}
+::-webkit-scrollbar-thumb {
+  background: #601D49;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #421131;
+}
+
+/* Glassmorphic Luxury Styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(234, 157, 157, 0.3);
+}
+
+.glass-plum {
+  background: rgba(96, 29, 73, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(253, 244, 210, 0.2);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #601D49 0%, #EA9D9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badge-brand {
+  background-color: #601D49;
+  color: #FDF4D2;
+}
+
+/* Subtle Shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-effect {
+  background: linear-gradient(90deg, rgba(253,244,210,0.1) 0%, rgba(234,157,157,0.3) 50%, rgba(253,244,210,0.1) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite;
+}
