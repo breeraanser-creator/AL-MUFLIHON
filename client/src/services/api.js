@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { INITIAL_PRODUCTS } from '../data/mockProducts';
 
-const API_BASE = '/api';
+const API_BASE = 'https://al-muflihon-server.vercel.app/api';
 
 const api = axios.create({
   baseURL: API_BASE,
