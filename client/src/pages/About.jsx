@@ -12,11 +12,11 @@ const About = () => {
       />
 
       <div className="space-y-16 pb-20">
-        
+
         {/* Hero Header */}
         <section className="bg-brand-plum text-brand-cream py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden text-center">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(234,157,157,0.2),transparent_70%)]" />
-          
+
           <div className="relative z-10 max-w-4xl mx-auto space-y-6">
             <div className="w-24 h-24 mx-auto rounded-full border-2 border-brand-rose p-1 bg-white/10 shadow-2xl">
               <img src="/logo.jpg" alt="AL-MUFLIHON Emblem" className="w-full h-full object-cover rounded-full" />
@@ -31,7 +31,7 @@ const About = () => {
             </h1>
 
             <p className="text-brand-cream/80 text-base sm:text-xl font-light max-w-2xl mx-auto leading-relaxed">
-              "Wear • Believe • Succeed" — Established in 2024 to revive the noble tradition of 
+              "Wear • Believe • Succeed" — Established in 2024 to revive the noble tradition of
               regal Islamic modesty, where sacred values meet sovereign craftsmanship.
             </p>
           </div>
@@ -44,20 +44,18 @@ const About = () => {
               <span className="text-xs uppercase font-bold tracking-widest text-brand-plum">
                 Founded With Sincerity
               </span>
-              
+
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-plum leading-tight">
                 "Those Who Succeed Through Dignity and Truth"
               </h2>
 
-              <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                The name <strong>AL-MUFLIHON</strong> draws its inspiration directly from the Holy Qur'an: 
-                <em> "قَدْ أَفْلَحَ الْمُؤْمِنُونَ"</em> — "Indeed, the believers have achieved true success."
-              </p>
+
 
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                In an era of fleeting fast-fashion trends, we recognized a profound longing among Muslims 
-                and lovers of modest wear for attire that honors both spiritual reverence and supreme tailoring. 
-                AL-MUFLIHON was born to fill that void with bespoke thobes, abayas, and kurtas that feel presidential.
+                In an era of fleeting fast-fashion trends, we recognized a profound longing among Muslims
+                and lovers of modest wear for attire that honors both spiritual reverence and supreme tailoring.
+                AL-MUFLIHON was born in Pakistan to celebrate modest fashion through beautifully crafted
+                kurtas, shalwar kameez, abayas, shawls, and timeless traditional wear.
               </p>
 
               <div className="border-l-4 border-brand-plum pl-4 py-2 bg-brand-cream/40 rounded-r-xl">
@@ -92,14 +90,14 @@ const About = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              
+
               <div className="bg-white p-6 rounded-2xl border border-brand-rose/20 shadow-subtle space-y-3">
                 <div className="w-12 h-12 bg-brand-plum text-brand-rose rounded-xl flex items-center justify-center">
                   <Crown className="w-6 h-6" />
                 </div>
                 <h3 className="font-serif text-lg font-bold text-brand-plum">1. Sovereign Cuts</h3>
                 <p className="text-xs text-gray-600 leading-relaxed">
-                  Engineered draped silhouettes honoring the traditional Saudi and Levantine drape without unnecessary excess.
+                  Engineered silhouettes inspired by traditional Pakistani craftsmanship and timeless modest fashion, refined for modern elegance.
                 </p>
               </div>
 
